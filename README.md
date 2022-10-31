@@ -1,2 +1,4 @@
 # Bitonic-TSP
-Projekt iz OR pri predmetu finančni praktikum
+###Projekt iz OR pri predmetu finančni praktikum
+
+

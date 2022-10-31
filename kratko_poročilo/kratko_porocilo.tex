@@ -1,0 +1,67 @@
+\documentclass[12pt,a4paper]{amsart}
+
+\usepackage[slovene]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{url}
+
+\textwidth 15cm
+\textheight 24cm
+\oddsidemargin.5cm
+\evensidemargin.5cm
+\topmargin-5mm
+\addtolength{\footskip}{10pt}
+\pagestyle{plain}
+\overfullrule=15pt
+
+\theoremstyle{definition}
+\newtheorem{definicija}{Definicija}[section]
+\newtheorem{primer}[definicija]{Primer}
+\newtheorem{opomba}[definicija]{Opomba}
+
+\theoremstyle{plain}
+\newtheorem{lema}[definicija]{Lema}
+\newtheorem{izrek}[definicija]{Izrek}
+\newtheorem{trditev}[definicija]{Trditev}
+\newtheorem{posledica}[definicija]{Posledica}
+
+\begin{document}
+
+% Naslovnica
+%----------------------------------------------------------------------------------------------------
+\thispagestyle{empty}
+\noindent{\large
+Univerza v Ljubljani\\[1mm]
+Fakulteta za matematiko in fiziko\\[3mm]
+Finančna matematika -- 1.~stopnja}
+\vfill
+
+\begin{center}{\large
+Tilen Humar, Urban Rupnik\\[2mm]
+{\Huge \bf Iskanje bitonične rešitve problema potujočega trgovca}\\[5mm]
+Projekt OR pri predmetu Finančni praktikum\\[1cm]}
+\end{center}
+\vfill
+
+\noindent{\large
+Ljubljana, 2022}
+\pagebreak
+
+%----------------------------------------------------------------------------------------------------
+\section{Predstavitev problema}
+
+\noindent
+{\bf Problem potujočega trgovca} oziroma {\bf problem trgovskega potnika} je ponavadi zastavljen v naslednji obliki.
+\newline
+
+\noindent
+Obstaja $n$ mest, za katera poznamo razdalje med poljubnim parom mest. 
+Trgovec želi obiskati vsa mesta, pri čemer pot začne in konča v istem mestu in vsak kraj obišče natanko enkrat.
+Katera je najkrajša oziroma najcenejša pot, ki jo lahko izbere trgovec.
+\newline
+
+\noindent
+V matematičnem jeziku se problem torej prevede na iskanje najcenejšega Hamiltonovega cikla v polnem grafu $K_n$, kjer ima vsaka povezava $e$ znano utež (ceno) $c_e$. 
+
+
+\end{document}
