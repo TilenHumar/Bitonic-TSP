@@ -1,4 +1,3 @@
-
 # Pomozna funkcija generiraj_tocke generira tocke (x, y) v ravnini po katerih bomo iskali pot. Tu je x naravno, y pa realno število.
 # spodnja_x ... spodnja meja za x koordinato
 # zgornja_x ... zgornja meja za x koordinato
@@ -36,23 +35,19 @@ generiraj_tocke = function(spodnja_x, zgornja_x, spodnja_y, zgornja_y, N) {
   return(seznam_tock)
 }
 
-# Še funkcija narisi_tocke, ki bo vrnila graf točk
-narisi_tocke = function(seznam){
+# Še funkcija narisi, ki bo vrnila graf točk
+narisi = function(seznam){
   graf = plot(x = seznam$x,
               y = seznam$y,
-              pch=19,
+              pch = 19,
               xlab = "x",
               ylab = "y",
               main = "Bitonic-TSP")
   return(graf)
 }
 
-
-
-# test 
-tocke = generiraj_tocke(0,10,0,10, 10)
-narisi_tocke(tocke)
-
-#problem:
-problem = generiraj_tocke(0,3,0,3, 5)
-# ne javi, da je preveč točk
+# funkcija, ki izračuna razdaljo med dvema točkama
+razdalja = function(tocka1, tocka2){
+  razdalja = sqrt((tocka2$x - tocka1$x)^2 + (tocka2$y - tocka1$y)^2)
+    return(razdalja)
+  }
