@@ -48,6 +48,6 @@ narisi = function(seznam){
 
 # funkcija, ki izračuna razdaljo med dvema točkama
 razdalja = function(tocka1, tocka2){
-  razdalja = sqrt((tocka2$x - tocka1$x)^2 + (tocka2$y - tocka1$y)^2)
+    razdalja = sqrt((tocka2$x - tocka1$x)^2 + (tocka2$y - tocka1$y)^2)
     return(razdalja)
   }
