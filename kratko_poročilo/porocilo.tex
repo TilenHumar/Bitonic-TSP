@@ -4,6 +4,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amssymb,amsfonts,bm}
 \usepackage{url}
+\usepackage{graphicx,subfig}
+
+
 
 
 \textwidth 15cm
@@ -83,8 +86,16 @@ Bitonična rešitev problema, bo torej pot, kjer bomo začeli v skrajno levo le�
 desno do najbolj desnega vozlišča in še strogo levo nazaj do izhodišča. Bitoničnost poti lahko na grafu 
 preverimo z navpičnicami. Vsaka navpična črta seka pot največ dvakrat.
 
-{\bf SLIKA}\dots graf z bitonicno potjo in en z navadno
-\newline
+
+\begin{figure}[!htb]%
+    \centering
+    \subfloat[\centering Bitonična pot]{{\includegraphics[width=6.9cm]{Slike grafov/graf1.png} }}%
+    \qquad
+    \subfloat[\centering Nebitonična pot]{{\includegraphics[width=6.9cm]{Slike grafov/graf2.png} }}%
+    \caption{Primer bitonične in nebitonične poti na grafu}%
+    \label{fig:example}%
+\end{figure}
+
 
 \noindent
 Iskanje najkrajše bitonične poti je standardna naloga v dinamičnem programiranju, rešljiva v polinomskem
@@ -109,15 +120,29 @@ je $e_{n-1, n}$ povezava med $v_{n-1}$ in $v_{n}.$ Razčlenimo do zdaj ugotovlje
 \noindent
 Naj za pot $P_{i,j}$ velja $\bm{i < j - 1}$. V slednji poti bo tako $v_{j-1}$ predhodnik $v_j,$ zato velja,
 če iz poti $P_{i,j}$ odstranimo povezavo $e_{j-1,j},$ dobimo rešitev $P_{i, j-1}.$
-{\bf SLIKA} na levi pot od i do j, na desni do j-1.
-\newline
+
+\begin{figure}[!htb]%
+  \centering
+  \subfloat[\centering neki]{{\includegraphics[width=6.9cm]{Slike grafov/graf3.png} }}%
+  \qquad
+  \subfloat[\centering neki]{{\includegraphics[width=6.9cm]{Slike grafov/graf4.png} }}%
+  \caption{neki}%
+  \label{fig:example}%
+\end{figure}
 
 
 \noindent
 Poglejmo še primer, ko za $P_{i, j}$ velja $\bm{i = j - 1}$. Na poti $P_{i,j}$ bo imela točka $v_j$ predhodnika
 $v_k$ za $1 \leq k \leq j - 2.$ Če sedaj odstranimo povezavo $e_{k,j}$ nam ostane pot $P_{k, j-1}.$
-{\bf SLIKA} podobno dve sliki
-\newline
+
+\begin{figure}[!htb]%
+  \centering
+  \subfloat[\centering neki]{{\includegraphics[width=6.9cm]{Slike grafov/graf5.png} }}%
+  \qquad
+  \subfloat[\centering neki]{{\includegraphics[width=6.9cm]{Slike grafov/graf6.png} }}%
+  \caption{neki}%
+  \label{fig:example}%
+\end{figure}
 
 
 \noindent
