@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12 32-bit) (preloaded format=pdflatex 2022.2.24)  1 NOV 2022 18:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12 32-bit) (preloaded format=pdflatex 2022.2.24)  3 NOV 2022 13:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -123,6 +123,15 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@posthook=\toks28
 ) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/tools\bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 ) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -181,19 +190,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--100
 
  []
 
-[2] (kratko_porocilo.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--121
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
+
+ []
+
+[3] (kratko_porocilo.aux) ) 
 Here is how much of TeX's memory you used:
- 3245 strings out of 478659
- 49504 string characters out of 2840222
- 362738 words of memory out of 3000000
- 21196 multiletter control sequences out of 15000+600000
- 411585 words of font info for 59 fonts, out of 8000000 for 9000
+ 3366 strings out of 478659
+ 51133 string characters out of 2840222
+ 366589 words of memory out of 3000000
+ 21298 multiletter control sequences out of 15000+600000
+ 416804 words of font info for 76 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 69i,5n,76p,368b,203s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on kratko_porocilo.pdf (2 pages, 110924 bytes).
+ 69i,12n,76p,368b,203s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on kratko_porocilo.pdf (3 pages, 140633 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
