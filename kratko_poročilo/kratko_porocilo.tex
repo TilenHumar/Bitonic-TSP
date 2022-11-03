@@ -5,6 +5,7 @@
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{url}
 
+
 \textwidth 15cm
 \textheight 24cm
 \oddsidemargin.5cm
@@ -24,6 +25,8 @@
 \newtheorem{izrek}[definicija]{Izrek}
 \newtheorem{trditev}[definicija]{Trditev}
 \newtheorem{posledica}[definicija]{Posledica}
+
+\newcommand{\N}{\mathbb N}
 
 \begin{document}
 
@@ -51,17 +54,58 @@ Ljubljana, 2022}
 \section{Predstavitev problema}
 
 \noindent
-{\bf Problem potujočega trgovca} oziroma {\bf problem trgovskega potnika} je ponavadi zastavljen v naslednji obliki.
+{\bf Problem potujočega trgovca} oziroma {\bf problem trgovskega potnika} je ponavadi zastavljen v 
+naslednji obliki.
 \newline
 
 \noindent
-Obstaja $n$ mest, za katera poznamo razdalje med poljubnim parom mest. 
-Trgovec želi obiskati vsa mesta, pri čemer pot začne in konča v istem mestu in vsak kraj obišče natanko enkrat.
-Katera je najkrajša oziroma najcenejša pot, ki jo lahko izbere trgovec?
+Obstaja $n$ mest, za katera poznamo razdalje med poljubnim parom mest. Trgovec želi obiskati vsa mesta, 
+pri čemer pot začne in konča v istem mestu in vsak kraj obišče natanko enkrat. Katera je najkrajša 
+oziroma najcenejša pot, ki jo lahko izbere trgovec?
 \newline
 
 \noindent
-V matematičnem jeziku se problem torej prevede na iskanje najcenejšega Hamiltonovega cikla v polnem grafu $K_n$, kjer ima vsaka povezava $e$ znano utež (ceno) $c_e$. 
+V matematičnem jeziku se problem torej prevede na iskanje najcenejšega Hamiltonovega cikla v polnem 
+grafu $K_n$, kjer ima vsaka povezava $e$ znano utež (ceno) $c_e$. Ker pa je v osnovi dotični problem
+``NP-težek'', to je, da bi za iskanje njegove rešitve potrebovali več kot polinomski čas, se omejimo na
+lažjo nalogo iskanja njegove najkrajše bitonične rešitve.
+\newline
+
+\section{Bitonična pot}
+
+\begin{definicija}
+    Zaporedje $(x_n)_{n \in \N}$ je bitonično, ko obstaja tak $k, 1 \leq k < n$, da velja
+    $$x_1 \leq x_2 \leq \cdots \leq x_k \geq \cdots \geq x_n.$$
+\end{definicija}
+
+\noindent
+Bitonična rešitev problema, bo torej pot, kjer bomo začeli v skrajno levo ležečem vozlišču, nadaljevali strogo
+desno do najbolj desnega vozlišča in še strogo levo nazaj do izhodišča. Bitoničnost poti lahko na grafu 
+preverimo z navpičnicami. Vsaka navpična črta seka pot največ dvakrat.
+
+{\bf SLIKA}\dots graf z bitonicno potjo in en z navadno
+\newline
+
+\noindent
+Iskanje najkrajše bitonične poti je standardna naloga v dinamičnem programiranju, rešljiva v polinomskem
+času $O(n^2),$ poznamo pa tudi hitrejši algoritem s časovno zahtevnostjo $O(n \log^2 n).$
+
+\section{Dinamično programiranje}
+
+\noindent
+Imamo poln graf $K_n$ z množico $n$ vozlišč $\{v_1, v_2, \ldots, v_n\},$ urejenih po naraščajoči $x$ koordinati. 
+Cene povezav so enake (evklidski) razdalji med posameznima vozliščema. Naš problem iskanja najkrajše 
+bitonične poti (po definiciji dinamičnega programiranje) razdelimo na manjše probleme.
+\newline
+
+\noindent
+Naj bo $P_{i,j}$ (za $i \leq j$) najkrajša bitonična pot, ki se začne v vozlišču $v_i$, nadaljuje strogo levo
+do $v_1$ in nato strogo desno do $v_j$. Slednja pot obišče vozlišča $\{v_1, v_2, \ldots, v_j\}.$ Rešitev
+problema potujočega trgovca bo torej pot $P_{n,n}.$
+
+
+
+
 
 
 \end{document}
