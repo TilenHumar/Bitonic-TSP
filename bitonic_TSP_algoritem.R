@@ -9,8 +9,7 @@ najdi_razdaljo = function(seznam_tock){
   
   # Zdaj imamo tocke a_1, a_2, ... , a_n, urejene po velikosti x koordinate od najmanjše do največje.
   
-  # Ustvarimo matriko B. Element v i-ti vrstici in j-tem stolpcu (B[i,j]) je najkrajša bitonična pot, ki se začne
-  # v vozlišču a_i in gre najprej strogo levo do vozlišča a_1, potem pa še strogo desno do vozlišča a_j.
+  # Ustvarimo matriko B. Element v i-ti vrstici in j-tem stolpcu (B[i,j]) je najkrajša bitonična pot, ki se začne v vozlišču a_i in gre najprej strogo levo do vozlišča a_1, potem pa še strogo desno do vozlišča a_j.
   N = nrow(seznam_tock)
   B = matrix(0, nrow = N, ncol = N)
   
@@ -36,11 +35,11 @@ najdi_razdaljo = function(seznam_tock){
   return(B)
   }
 
-primer = generiraj_tocke(0,8,0,5,7)
+primer = generiraj_tocke(0,8,0,5,56)
 primer
 
 tocke = data.frame(x = c(0,1,2,3),
                    y = c(0,1,0,1))
 
-TESTNA = najdi_razdaljo(tocke)
+TESTNA = najdi_razdaljo(primer)
 TESTNA
