@@ -44,6 +44,7 @@ narisi = function(seznam){
   graf = plot(x = seznam$x,
               y = seznam$y,
               pch = 19,
+              lwd=5.0,
               xlab = "x",
               ylab = "y",
               main = "Bitonic-TSP")
@@ -59,3 +60,23 @@ razdalja = function(tocka1, tocka2){
   }
 
 testna_razdalja = razdalja(test[2,], test[4,])
+
+# funkcija, ki nariše cikel. Kot argument dobi seznam tock, ki je urejen glede na vrstni red vozlišč v ciklu
+narisi_cikel = function(seznam_tock){
+  N = nrow(seznam_tock)
+  narisi(seznam_tock)
+  indeksi = 1:N
+  arrows(seznam_tock$x[indeksi], seznam_tock$y[indeksi], seznam_tock$x[indeksi+1], seznam_tock$y[indeksi+1], length = 0.25, angle = 30, code = 2,
+         lty = NULL, xpd = FALSE)
+  
+  arrows(seznam_tock$x[N], seznam_tock$y[N], seznam_tock$x[1], seznam_tock$y[1], length = 0.25, angle = 30, code = 2,
+         lty = NULL, xpd = FALSE)
+  }
+
+
+poskus = data.frame("x" = c(1,2,3,5,7,8,6,4),
+             "y" = c(1,2,1,2,1,2,3,2))
+narisi(poskus)
+narisi_cikel(poskus)
+
+
