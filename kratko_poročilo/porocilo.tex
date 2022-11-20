@@ -5,6 +5,9 @@
 \usepackage{amsmath,amssymb,amsfonts,bm}
 \usepackage{url}
 \usepackage{graphicx,subfig}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+
 
 
 
@@ -30,6 +33,7 @@
 \newtheorem{posledica}[definicija]{Posledica}
 
 \newcommand{\N}{\mathbb N}
+\newcommand{\R}{\mathbb R}
 
 \begin{document}
 
@@ -111,7 +115,7 @@ bitonične poti (po definiciji dinamičnega programiranje) razdelimo na manjše 
 
 \noindent
 Naj bo $P_{i,j}$ (za $i \leq j$) najkrajša bitonična pot, ki se začne v vozlišču $v_i$, nadaljuje strogo levo
-do $v_1$ in nato strogo desno do $v_j$. Slednja pot obišče vozlišča $\{v_1, v_2, \ldots, v_j\}.$ Rešitev
+do $v_1$ in nato strogo desno do $v_j$, kjer se konča. Slednja pot obišče vozlišča $\{v_1, v_2, \ldots, v_j\}.$ Rešitev
 problema potujočega trgovca bo torej pot $P_{n,n}$ oziroma $P_{n-1, n} + e_{n-1, n},$ kjer
 je $e_{n-1, n}$ povezava med $v_{n-1}$ in $v_{n}.$ Razčlenimo do zdaj ugotovljeno na nekaj podprimerov, iz
 česar bomo izpeljali rekurzivno formulo.
@@ -120,30 +124,41 @@ je $e_{n-1, n}$ povezava med $v_{n-1}$ in $v_{n}.$ Razčlenimo do zdaj ugotovlje
 \noindent
 Naj za pot $P_{i,j}$ velja $\bm{i < j - 1}$. V slednji poti bo tako $v_{j-1}$ predhodnik $v_j,$ zato velja,
 če iz poti $P_{i,j}$ odstranimo povezavo $e_{j-1,j},$ dobimo rešitev $P_{i, j-1}.$
+\newline
+
+\noindent
+Na spodnji sliki \ref{slika:1. primer} je izrisan primer poti $P_{5,8}$, kjer omenjena neenakost velja
+($5 < 8 - 1$). Ko smo na poti odstranili povezavo $e_{7,8}$, nam je ostala ravno pot $P_{5,7}$ (desna slika).
 
 \begin{figure}[!htb]%
   \centering
-  \subfloat[\centering neki]{{\includegraphics[width=6.9cm]{Slike grafov/graf3.png} }}%
+  \subfloat[\centering Graf $P_{5,8}$]{{\includegraphics[width=6.9cm]{Slike grafov/graf3.png} }}%
   \qquad
-  \subfloat[\centering neki]{{\includegraphics[width=6.9cm]{Slike grafov/graf4.png} }}%
-  \caption{neki}%
-  \label{fig:example}%
+  \subfloat[\centering Graf $P_{5,7}$]{{\includegraphics[width=6.9cm]{Slike grafov/graf4.png} }}%
+  \caption{Primer grafov poti $P_{i,j}$ za $i < j - 1.$}%
+  \label{slika:1. primer}%
 \end{figure}
 
 
 \noindent
 Poglejmo še primer, ko za $P_{i, j}$ velja $\bm{i = j - 1}$. Na poti $P_{i,j}$ bo imela točka $v_j$ predhodnika
 $v_k$ za $1 \leq k \leq j - 2.$ Če sedaj odstranimo povezavo $e_{k,j}$ nam ostane pot $P_{k, j-1}.$
+\newline
 
 \begin{figure}[!htb]%
   \centering
-  \subfloat[\centering neki]{{\includegraphics[width=6.9cm]{Slike grafov/graf5.png} }}%
+  \subfloat[\centering Graf $P_{6,7}$]{{\includegraphics[width=6.9cm]{Slike grafov/graf5.png} }}%
   \qquad
-  \subfloat[\centering neki]{{\includegraphics[width=6.9cm]{Slike grafov/graf6.png} }}%
-  \caption{neki}%
-  \label{fig:example}%
+  \subfloat[\centering Graf $P_{4,6}$]{{\includegraphics[width=6.9cm]{Slike grafov/graf6.png} }}%
+  \caption{Primer grafov poti $P_{i,j} $ za $i = j - 1$}%
+  \label{slika:2. primer}%
 \end{figure}
 
+\noindent
+Slednji primer je prikazan na sliki \ref{slika:2. primer}. Za pot $P_{6,7}$ velja enakost ($6 = 7 - 1$), 
+torej ima vozlišče $v_7$ predhodnika $v_k$ (za $1 \leq k \leq 7 - 2$). V našem primeru je $k = 4$ in ko 
+iz poti $P_{6,7}$ odstranimo povezavo $e_{4,7},$ dobimo ravno pot $P_{4,6}.$
+\newline
 
 \noindent
 V zadnji primer ($i = j - 1$) spada tudi skrajni dogodek $\bm{i = 1}$ in $\bm{j = 2}$. Imamo pot z le dvema
@@ -160,9 +175,30 @@ Zgornje izpeljave lahko sedaj združimo v rekurzivno formulo.
         e_{1, 2} & \text{$i = 1$, $j = 2$}\\
         P_{i, j-1} + e_{j-1, j} & \text{$i < j - 1$}\\
         \displaystyle \min_{1 \leq k \leq j - 2} P_{k, j-1} + e_{k, j} & \text{$i = j - 1$}
-      \end{cases}       
+      \end{cases}   
+      \newline      
   \end{equation*}
 
+\section{Program}
+
+\noindent
+V programskem jeziku R, sva pripravila program, ki vsebuje:
+
+\begin{itemize}
+  \item funkcijo za generiranje točk v $\R^2$ (predpostavka: $x$ koordinate so različna
+  cela števila, $y$ pa poljubna realna)
+  \item funkcijo za risanje točk
+  \item funkcijo za izračun evklidske razdalje med točkama
+  \item program za iskanje najkrajše bitonične poti
+  \item funkcijo za izpis poti
+  \newline
+\end{itemize}
+
+
+\noindent
+Program za iskanje najkrajše bitonične poti lahko, v rahlo poenostavljeni obliki, predstavimo z naslednjo
+psevdokodo.
+\newline
 
 
 
