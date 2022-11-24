@@ -6,7 +6,7 @@ najdi_razdaljo = function(seznam_tock){
   # Najprej uredimo vrstice v vhodni tabeli
   seznam_tock = seznam_tock[order(seznam_tock$x),]
   N = nrow(seznam_tock)
-  # Zdaj imamo tocke a_1, a_2, ... , a_n, urejene po velikosti x-koordinate od najmanjše do največje.
+  # Zdaj imamo tocke a_1, a_2, ... , a_n, urejene po velikosti x koordinate od najmanjše do največje.
   
   # Ustvarimo matriko B. Element v i-ti vrstici in j-tem stolpcu (B[i,j]) je dolžina najkrajše poti, ki se začne v vozlišču a_i in gre najprej strogo levo do vozlišča a_1, potem pa še strogo desno do vozlišča a_j.
   B = matrix(0, nrow = N, ncol = N)
@@ -36,6 +36,8 @@ najdi_razdaljo = function(seznam_tock){
     }
   }
   
+  
+  # Povezava med a_n-1 in a_n bo gotovo v ciklu
   B[N,N] = B[(N-1),N] + razdalja(seznam_tock[(N-1),], seznam_tock[N,])
   C[N,N] = N-1
   
@@ -44,34 +46,13 @@ najdi_razdaljo = function(seznam_tock){
 }
 
 
-
-izpisi_pot = function(C,i,j){
-  if (i < j){
-    k = C[i,j]
-    if (k != i){
-      print(k)
-    }
-    if (k>1){
-      izpisi_pot(C,i,k)
-    }
-  } else {
-    k = C[j,i]
-    if (k>1){
-      izpisi_pot(C,k,j)
-      print(k)
-    }
-  }
-}
-
-izpisi_cikel = function(C,N){
-  print(N)
-  print(N-1)
-  k = C[N-1,N]
-  izpisi_pot(C,k, N-1)
-  print(k)
-}
-
 testni_primer = data.frame("x" = c(1,2,3,4),
                            "y" = c(0,0,0,0))
 
-testni_primer_dolzina_cikla = najdi_razdaljo(testni_primer)$tocke
+testni_primer_dolzina_cikla = najdi_razdaljo(testni_primer)$dolzine
+testni_primer_dolzina_cikla
+
+testni_primer_tocke_cikla = najdi_razdaljo(testni_primer)$tocke
+testni_primer_tocke_cikla
+
+test_cikel = izpisi_cikel(testni_primer_tocke_cikla,4)
