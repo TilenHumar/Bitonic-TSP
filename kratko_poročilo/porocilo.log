@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12 32-bit) (preloaded format=pdflatex 2022.2.24)  16 NOV 2022 13:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12 32-bit) (preloaded format=pdflatex 2022.2.24)  24 NOV 2022 21:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -187,69 +187,70 @@ File: caption-ams-smf.sto 2020/08/22 v2.0 Adaption of the caption package to the
 \c@lotdepth=\count280
 \sf@top=\skip60
 \sf@bottom=\skip61
-) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/algorithmicx\algorithmicx.sty
-Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
- (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/base\ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-)
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count281
-\c@ALG@rem=\count282
-\c@ALG@nested=\count283
-\ALG@tlm=\skip62
-\ALG@thistlm=\skip63
-\c@ALG@Lnr=\count284
-\c@ALG@blocknr=\count285
-\c@ALG@storecount=\count286
-\c@ALG@tmpcounter=\count287
-\ALG@tmplength=\skip64
-) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/algorithmicx\algpseudocode.sty
-Package: algpseudocode 
-
-Document Style - pseudocode environments for use with the `algorithmicx' style
-)
-\c@definicija=\count288
+) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/listings\listings.sty
+\lst@mode=\count281
+\lst@gtempboxa=\box53
+\lst@token=\toks30
+\lst@length=\count282
+\lst@currlwidth=\dimen162
+\lst@column=\count283
+\lst@pos=\count284
+\lst@lostspace=\dimen163
+\lst@width=\dimen164
+\lst@newlines=\count285
+\lst@lineno=\count286
+\lst@maxwidth=\dimen165
+ (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count287
+\lst@skipnumbers=\count288
+\lst@framebox=\box54
+) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+\c@definicija=\count289
  (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count289
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count290
+\l__pdf_internal_box=\box55
 ) (porocilo.aux)
 \openout1 = `porocilo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
  (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
  (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen162
-\scratchbox=\box54
-\nofMPsegments=\count291
-\nofMParguments=\count292
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen163
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count291
+\scratchdimen=\dimen166
+\scratchbox=\box56
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen167
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks32
 ) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -258,105 +259,109 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count297
  [1{C:/Users/Uporabnik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 63--67
+Underfull \hbox (badness 10000) in paragraph at lines 61--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--73
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--80
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
 
  []
 
 <Slike grafov/graf1.png, id=7, 327.55933pt x 218.42677pt>
 File: Slike grafov/graf1.png Graphic file (type png)
 <use Slike grafov/graf1.png>
-Package pdftex.def Info: Slike grafov/graf1.png  used on input line 96.
+Package pdftex.def Info: Slike grafov/graf1.png  used on input line 94.
 (pdftex.def)             Requested size: 196.32384pt x 130.91708pt.
 <Slike grafov/graf2.png, id=9, 327.55933pt x 218.42677pt>
 File: Slike grafov/graf2.png Graphic file (type png)
 <use Slike grafov/graf2.png>
-Package pdftex.def Info: Slike grafov/graf2.png  used on input line 98.
+Package pdftex.def Info: Slike grafov/graf2.png  used on input line 96.
 (pdftex.def)             Requested size: 196.32384pt x 130.91708pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--115
+Underfull \hbox (badness 10000) in paragraph at lines 108--113
 
  []
 
 [2 <./Slike grafov/graf1.png> <./Slike grafov/graf2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 116--123
+Underfull \hbox (badness 10000) in paragraph at lines 114--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
 
  []
 
 <Slike grafov/graf3.png, id=24, 327.55933pt x 218.2651pt>
 File: Slike grafov/graf3.png Graphic file (type png)
 <use Slike grafov/graf3.png>
-Package pdftex.def Info: Slike grafov/graf3.png  used on input line 135.
+Package pdftex.def Info: Slike grafov/graf3.png  used on input line 133.
 (pdftex.def)             Requested size: 196.32384pt x 130.82019pt.
 <Slike grafov/graf4.png, id=25, 327.55933pt x 218.2651pt>
 File: Slike grafov/graf4.png Graphic file (type png)
 <use Slike grafov/graf4.png>
-Package pdftex.def Info: Slike grafov/graf4.png  used on input line 137.
+Package pdftex.def Info: Slike grafov/graf4.png  used on input line 135.
 (pdftex.def)             Requested size: 196.32384pt x 130.82019pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--147
+Underfull \hbox (badness 10000) in paragraph at lines 141--145
 
  []
 
 <Slike grafov/graf5.png, id=26, 327.55933pt x 218.2651pt>
 File: Slike grafov/graf5.png Graphic file (type png)
 <use Slike grafov/graf5.png>
-Package pdftex.def Info: Slike grafov/graf5.png  used on input line 150.
+Package pdftex.def Info: Slike grafov/graf5.png  used on input line 148.
 (pdftex.def)             Requested size: 196.32384pt x 130.82019pt.
 <Slike grafov/graf6.png, id=27, 327.55933pt x 218.2651pt>
 File: Slike grafov/graf6.png Graphic file (type png)
 <use Slike grafov/graf6.png>
-Package pdftex.def Info: Slike grafov/graf6.png  used on input line 152.
+Package pdftex.def Info: Slike grafov/graf6.png  used on input line 150.
 (pdftex.def)             Requested size: 196.32384pt x 130.82019pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--162
+Underfull \hbox (badness 10000) in paragraph at lines 155--160
 
  []
 
 [3 <./Slike grafov/graf3.png> <./Slike grafov/graf4.png> <./Slike grafov/graf5.png> <./Slike grafov/graf6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 163--167
+Underfull \hbox (badness 10000) in paragraph at lines 161--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--202
+Underfull \hbox (badness 10000) in paragraph at lines 196--200
 
  []
 
-[4] (porocilo.aux) ) 
+(C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) [4] (porocilo.aux) ) 
 Here is how much of TeX's memory you used:
- 6303 strings out of 478659
- 104059 string characters out of 2840222
- 413680 words of memory out of 3000000
- 24169 multiletter control sequences out of 15000+600000
- 417105 words of font info for 77 fonts, out of 8000000 for 9000
+ 7975 strings out of 478659
+ 123930 string characters out of 2840222
+ 627617 words of memory out of 3000000
+ 25834 multiletter control sequences out of 15000+600000
+ 417442 words of font info for 78 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 69i,12n,79p,415b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on porocilo.pdf (4 pages, 634804 bytes).
+ 69i,12n,79p,411b,1646s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Uporabnik\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on porocilo.pdf (4 pages, 651968 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

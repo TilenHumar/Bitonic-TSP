@@ -5,9 +5,7 @@
 \usepackage{amsmath,amssymb,amsfonts,bm}
 \usepackage{url}
 \usepackage{graphicx,subfig}
-\usepackage{algorithmicx}
-\usepackage{algpseudocode}
-
+\usepackage{listings}
 
 
 
@@ -73,7 +71,7 @@ oziroma najcenejša pot, ki jo lahko izbere trgovec?
 
 \noindent
 V matematičnem jeziku se problem torej prevede na iskanje najcenejšega Hamiltonovega cikla v polnem 
-grafu $K_n$, kjer ima vsaka povezava $e$ znano utež (ceno) $c_e$. Ker pa je v osnovi dotični problem
+grafu $K_n$ v ravnini, kjer ima vsaka povezava $e$ znano utež (ceno) $c_e$. Ker pa je v osnovi dotični problem
 ``NP-težek'', to je, da bi za iskanje njegove rešitve potrebovali več kot polinomski čas, se omejimo na
 lažjo nalogo iskanja njegove najkrajše bitonične rešitve.
 \newline
@@ -200,7 +198,25 @@ Program za iskanje najkrajše bitonične poti lahko, v rahlo poenostavljeni obli
 psevdokodo.
 \newline
 
+\begin{lstlisting}[basicstyle=\tiny, language=Matlab]
 
+  Razvrsti seznam_tock
+  Ustvari tabeli B[1...n, 1...n] in C[1...n, 1...n]
+  B[1,2] = razdalja(seznam_tock[1,], seznam_tock[2,])
+  C[1,2] = 1
+  for j = 3 to n
+    for i = 1 to j - 2
+      B[i,j] = B[i,j - 1] + razdalja(seznam_tock[j - 1,], seznam_tock[j,])
+      C[i,j] = j - 1
+    B[j - 1,j] = B[i,j - 1] + razdalja(seznam_tock[i,], seznam_tock[j,])
+    for k = 2 to j - 2
+      B[i,j] = min(B[i,j], B[k,j - 1] + razdalja(seznam_tock[k,], seznam_tock[j,]))
+      C[i,j] = k
+  B[n,n] = B[n - 1,n] + razdalja(seznam_tock[n - 1,], seznam_tock[n,])
+  C[n,n] = n - 1
+  return B and C
+
+\end{lstlisting}
 
 
 \end{document}
