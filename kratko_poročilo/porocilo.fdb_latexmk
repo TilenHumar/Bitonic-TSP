@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1669323479 "c:/Users/Uporabnik/Documents/FMF/3. letnik/Finanèni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poroèilo/porocilo.tex" "porocilo.pdf" "porocilo" 1669323481
+["pdflatex"] 1669409562 "c:/Users/Uporabnik/Documents/FMF/3. letnik/Finanèni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poroèilo/porocilo.tex" "porocilo.pdf" "porocilo" 1669409566
   "C:/Users/Uporabnik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1668601929 81286 a24972354787ad66f4189952495c30ed ""
   "C:/Users/Uporabnik/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0800.pk" 1669323088 9292 deb5cb977105bf5fe29ae406781283c4 ""
   "C:/Users/Uporabnik/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1645722594 9775665 d3d137589d59f1ef4c8db1109fdf0744 ""
@@ -41,6 +41,7 @@
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
+  "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/tfm/public/cm/cmtt12.tfm" 1136765053 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbsy10.pfb" 1247593066 34793 ae7a3e2775dc0ce90475eeabcb46f9f1 ""
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247593066 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1247593066 32166 b0c356b15f19587482a9217ce1d8fa67 ""
@@ -58,6 +59,7 @@
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1247593066 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247593067 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247593067 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
+  "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1247593066 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247593073 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/tex/generic/babel/babel.sty" 1638206364 147900 18d47b4bbea226e862cd49f17ede0392 ""
@@ -100,9 +102,9 @@
   "Slike grafov/graf4.png" 1667487409 106841 04a4361af66030522cbcfd5b35aa47a9 ""
   "Slike grafov/graf5.png" 1667487442 87697 b318a82ddfb9f149814839169deb7aa5 ""
   "Slike grafov/graf6.png" 1667487483 86084 d190c71073ab8a75c10b726f36f406d6 ""
-  "c:/Users/Uporabnik/Documents/FMF/3. letnik/Finanèni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poroèilo/porocilo.tex" 1669323479 7943 5d813aa9ab6628ca4a5675501e21eb08 ""
-  "porocilo.aux" 1669323481 2145 ef487777450a4a6498ad5d5dbb95f2c7 "pdflatex"
-  "porocilo.tex" 1669323479 7943 5d813aa9ab6628ca4a5675501e21eb08 ""
+  "c:/Users/Uporabnik/Documents/FMF/3. letnik/Finanèni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poroèilo/porocilo.tex" 1669409561 8550 d8a7ae229af4916d179371f2f0ba2e3b ""
+  "porocilo.aux" 1669409565 2413 a6c79b61d2e6acca57b0866ee288bf46 "pdflatex"
+  "porocilo.tex" 1669409561 8550 d8a7ae229af4916d179371f2f0ba2e3b ""
   (generated)
   "porocilo.aux"
   "porocilo.log"

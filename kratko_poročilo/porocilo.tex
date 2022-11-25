@@ -183,18 +183,33 @@ Zgornje izpeljave lahko sedaj združimo v rekurzivno formulo.
 V programskem jeziku R, sva pripravila program, ki vsebuje:
 
 \begin{itemize}
-  \item funkcijo za generiranje točk v $\R^2$ (predpostavka: $x$ koordinate so različna
-  cela števila, $y$ pa poljubna realna)
+  \item funkcijo za generiranje točk v $\R^2$
   \item funkcijo za risanje točk
   \item funkcijo za izračun evklidske razdalje med točkama
   \item program za iskanje najkrajše bitonične poti
   \item funkcijo za izpis poti
   \newline
+
 \end{itemize}
 
+\subsection{Generiranje podatkov}
 
 \noindent
-Program za iskanje najkrajše bitonične poti lahko, v rahlo poenostavljeni obliki, predstavimo z naslednjo
+Za generiranje podatkov oziroma točk v ravnini poskrbi pomožna funkcija \texttt{generiraj\_tocke}, ki sprejme
+število želenih točk in koordinate pravokotnika (\texttt{zgornja\_x}, \texttt{spodnja\_x}, \texttt{zgornja\_y},
+\texttt{spodnja\_y}) s katerim omejimo območje naših podatkov. 
+\newline
+
+\noindent
+Predpostavila sva, da so $x$-koordinate točk
+različna cela števila znotraj izbranega pravokotnika (če je slednji premajhen za prej izbrano želeno število
+točk, funkcija vrne največje možno število točk znotraj pravokotnika), $y$-koordinate pa so realna števila.
+\newline
+
+\subsection{Program za iskanje najkrajše bitonične poti}
+
+\noindent
+Glavni del programa lahko, v rahlo poenostavljeni obliki, predstavimo z naslednjo
 psevdokodo.
 \newline
 
