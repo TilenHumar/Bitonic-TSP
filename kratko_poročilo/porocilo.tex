@@ -203,7 +203,8 @@ Za generiranje podatkov oziroma točk v ravnini poskrbi pomožna funkcija \textt
 \noindent
 Predpostavila sva, da so $x$-koordinate točk
 različna cela števila znotraj izbranega pravokotnika (če je slednji premajhen za prej izbrano želeno število
-točk, funkcija vrne največje možno število točk znotraj pravokotnika), $y$-koordinate pa so realna števila.
+točk, funkcija vrne največje možno število točk znotraj pravokotnika), $y$-koordinate pa so naključna
+realna števila.
 \newline
 
 \subsection{Program za iskanje najkrajše bitonične poti}
@@ -232,6 +233,22 @@ psevdokodo.
   return B and C
 
 \end{lstlisting}
+
+\noindent
+Program sprejme generiran seznam točk $(x,y)$, ki jih najprej razvrsti po naraščajoči $x$-koordinati. 
+Matrika $B$ vsebuje dolžine poti, kjer je element v $i$-ti vrstici in $j$-tem stolpcu ($B[i,j]$) dolžina
+najkrajše bitonične poti $P_{i,j}$ (od vozlišča $v_i$, strogo levo do $v_1$ in nato strogo desno do $v_j$).
+Matrika $C$ pa na $[i,j]$-tem mestu vsebuje predzadnje vozlišče poti $P_{i,j}$, torej predhodnika vozlišča
+$v_j$ na tej poti.
+\newline
+
+\noindent
+Program vrne celotni matriki $B$ in $C$. Rezultat našega iskanja problema najkrajše bitonične poti, ki 
+vsebuje vsa vozlišča ($P_{n,n}$), bo tako $[n,n]$-ti element matrike $B$. Matriko $C$ pa bomo uporabili pri
+konstrukciji slednjega cikla.
+\newline
+
+\section{Eksperimentiranje s programom}
 
 
 \end{document}

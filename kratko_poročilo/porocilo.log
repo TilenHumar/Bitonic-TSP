@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12 32-bit) (preloaded format=pdflatex 2022.2.24)  25 NOV 2022 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12 32-bit) (preloaded format=pdflatex 2022.2.24)  26 NOV 2022 12:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -348,30 +348,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--202
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--208
+Underfull \hbox (badness 10000) in paragraph at lines 203--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--215
+Underfull \hbox (badness 10000) in paragraph at lines 212--216
 
  []
 
 (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [4] (porocilo.aux) ) 
+)
+Underfull \hbox (badness 10000) in paragraph at lines 237--244
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+[5] (porocilo.aux) ) 
 Here is how much of TeX's memory you used:
  7979 strings out of 478659
  123971 string characters out of 2840222
- 630473 words of memory out of 3000000
+ 631484 words of memory out of 3000000
  25837 multiletter control sequences out of 15000+600000
  417611 words of font info for 79 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  69i,12n,79p,411b,1646s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Uporabnik\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on porocilo.pdf (4 pages, 659659 bytes).
+Output written on porocilo.pdf (5 pages, 662401 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
+ 131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
