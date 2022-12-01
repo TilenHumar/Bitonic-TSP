@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12 32-bit) (preloaded format=pdflatex 2022.2.24)  26 NOV 2022 12:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12 32-bit) (preloaded format=pdflatex 2022.2.24)  1 DEC 2022 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -209,48 +209,92 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
-\c@definicija=\count289
+ (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+ (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/generic/xkeyval\xkeyval.tex (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
+)
+\XKV@depth=\count289
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box55
+)
+\tc@llx=\dimen166
+\tc@lly=\dimen167
+\tc@urx=\dimen168
+\tc@ury=\dimen169
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen170
+\adjbox@Height=\dimen171
+\adjbox@Depth=\dimen172
+\adjbox@Totalheight=\dimen173
+\adjbox@pwidth=\dimen174
+\adjbox@pheight=\dimen175
+\adjbox@pdepth=\dimen176
+\adjbox@ptotalheight=\dimen177
+ (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count290
+) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box56
+\sift@deathcycles=\count291
+\@vwid@loff=\dimen178
+\@vwid@roff=\dimen179
+))
+\c@definicija=\count292
  (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count290
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count293
+\l__pdf_internal_box=\box57
 ) (porocilo.aux)
 \openout1 = `porocilo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
  (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
  (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count291
-\scratchdimen=\dimen166
-\scratchbox=\box56
-\nofMPsegments=\count292
-\nofMParguments=\count293
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count294
-\MPscratchDim=\dimen167
-\MPnumerator=\count295
-\makeMPintoPDFobject=\count296
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count294
+\scratchdimen=\dimen180
+\scratchbox=\box58
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen181
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks34
 ) (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -261,127 +305,200 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count297
+\c@lstlisting=\count300
  [1{C:/Users/Uporabnik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 61--65
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--71
+Underfull \hbox (badness 10000) in paragraph at lines 67--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--78
+Underfull \hbox (badness 10000) in paragraph at lines 73--79
 
  []
 
 <Slike grafov/graf1.png, id=7, 327.55933pt x 218.42677pt>
 File: Slike grafov/graf1.png Graphic file (type png)
 <use Slike grafov/graf1.png>
-Package pdftex.def Info: Slike grafov/graf1.png  used on input line 94.
+Package pdftex.def Info: Slike grafov/graf1.png  used on input line 95.
 (pdftex.def)             Requested size: 196.32384pt x 130.91708pt.
 <Slike grafov/graf2.png, id=9, 327.55933pt x 218.42677pt>
 File: Slike grafov/graf2.png Graphic file (type png)
 <use Slike grafov/graf2.png>
-Package pdftex.def Info: Slike grafov/graf2.png  used on input line 96.
+Package pdftex.def Info: Slike grafov/graf2.png  used on input line 97.
 (pdftex.def)             Requested size: 196.32384pt x 130.91708pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--113
+Underfull \hbox (badness 10000) in paragraph at lines 109--114
 
  []
 
 [2 <./Slike grafov/graf1.png> <./Slike grafov/graf2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 114--121
+Underfull \hbox (badness 10000) in paragraph at lines 115--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--126
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
 
  []
 
 <Slike grafov/graf3.png, id=24, 327.55933pt x 218.2651pt>
 File: Slike grafov/graf3.png Graphic file (type png)
 <use Slike grafov/graf3.png>
-Package pdftex.def Info: Slike grafov/graf3.png  used on input line 133.
+Package pdftex.def Info: Slike grafov/graf3.png  used on input line 134.
 (pdftex.def)             Requested size: 196.32384pt x 130.82019pt.
 <Slike grafov/graf4.png, id=25, 327.55933pt x 218.2651pt>
 File: Slike grafov/graf4.png Graphic file (type png)
 <use Slike grafov/graf4.png>
-Package pdftex.def Info: Slike grafov/graf4.png  used on input line 135.
+Package pdftex.def Info: Slike grafov/graf4.png  used on input line 136.
 (pdftex.def)             Requested size: 196.32384pt x 130.82019pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--145
+Underfull \hbox (badness 10000) in paragraph at lines 142--146
 
  []
 
 <Slike grafov/graf5.png, id=26, 327.55933pt x 218.2651pt>
 File: Slike grafov/graf5.png Graphic file (type png)
 <use Slike grafov/graf5.png>
-Package pdftex.def Info: Slike grafov/graf5.png  used on input line 148.
+Package pdftex.def Info: Slike grafov/graf5.png  used on input line 149.
 (pdftex.def)             Requested size: 196.32384pt x 130.82019pt.
 <Slike grafov/graf6.png, id=27, 327.55933pt x 218.2651pt>
 File: Slike grafov/graf6.png Graphic file (type png)
 <use Slike grafov/graf6.png>
-Package pdftex.def Info: Slike grafov/graf6.png  used on input line 150.
+Package pdftex.def Info: Slike grafov/graf6.png  used on input line 151.
 (pdftex.def)             Requested size: 196.32384pt x 130.82019pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--160
+Underfull \hbox (badness 10000) in paragraph at lines 156--161
 
  []
 
 [3 <./Slike grafov/graf3.png> <./Slike grafov/graf4.png> <./Slike grafov/graf5.png> <./Slike grafov/graf6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 161--165
+Underfull \hbox (badness 10000) in paragraph at lines 162--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--192
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--202
+Underfull \hbox (badness 10000) in paragraph at lines 198--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--209
+Underfull \hbox (badness 10000) in paragraph at lines 204--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--216
+Underfull \hbox (badness 10000) in paragraph at lines 213--217
 
  []
 
 (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 237--244
+Underfull \hbox (badness 10000) in paragraph at lines 238--245
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 245--250
+Underfull \hbox (badness 10000) in paragraph at lines 246--251
 
  []
 
-[5] (porocilo.aux) ) 
-Here is how much of TeX's memory you used:
- 7979 strings out of 478659
- 123971 string characters out of 2840222
- 631484 words of memory out of 3000000
- 25837 multiletter control sequences out of 15000+600000
- 417611 words of font info for 79 fonts, out of 8000000 for 9000
- 1302 hyphenation exceptions out of 8191
- 69i,12n,79p,411b,1646s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Uporabnik\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on porocilo.pdf (5 pages, 662401 bytes).
-PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+Underfull \hbox (badness 10000) in paragraph at lines 254--257
+
+ []
+
+<example-image.pdf, id=47, 321.2pt x 240.9pt>
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package pdftex.def Info: example-image.pdf  used on input line 264.
+(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--289
+
+ []
+
+c:/Users/Uporabnik/Documents/FMF/3. letnik/Finančni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poročilo/porocilo.tex:292: You can't use `\hrule' here except with leaders.
+\caption@hrule ->\hrule 
+                        \@height \z@ 
+l.292     \caption*{Matrika B}
+                              
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+c:/Users/Uporabnik/Documents/FMF/3. letnik/Finančni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poročilo/porocilo.tex:292: Missing number, treated as zero.
+<to be read again> 
+                   \vskip 
+l.292     \caption*{Matrika B}
+                              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/Uporabnik/Documents/FMF/3. letnik/Finančni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poročilo/porocilo.tex:292: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \vskip 
+l.292     \caption*{Matrika B}
+                              
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+c:/Users/Uporabnik/Documents/FMF/3. letnik/Finančni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poročilo/porocilo.tex:292: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.292     \caption*{Matrika B}
+                              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/Uporabnik/Documents/FMF/3. letnik/Finančni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poročilo/porocilo.tex:292: Missing } inserted.
+<inserted text> 
+                }
+l.292     \caption*{Matrika B}
+                              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/Uporabnik/Documents/FMF/3. letnik/Finančni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poročilo/porocilo.tex:292: Missing } inserted.
+<inserted text> 
+                }
+l.292     \caption*{Matrika B}
+                              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/Uporabnik/Documents/FMF/3. letnik/Finančni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poročilo/porocilo.tex:292: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.292     \caption*{Matrika B}
+                              
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/Uporabnik/Documents/FMF/3. letnik/Finančni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poročilo/porocilo.tex:292: Missing { inserted.
+<inserted text> 
+                {
+l.292     \caption*{Matrika B}
+                     

@@ -6,7 +6,8 @@
 \usepackage{url}
 \usepackage{graphicx,subfig}
 \usepackage{listings}
-
+\usepackage{adjustbox}
+\usepackage{caption}
 
 
 
@@ -250,5 +251,81 @@ konstrukciji slednjega cikla.
 
 \section{Eksperimentiranje s programom}
 
+\noindent
+Sedaj opravimo nekaj konkretnih eksperimentov z napisanom programom.
+\newline
+
+\subsection[]{1. eksperiment}
+Generirajmo 7 točk v zaprtem pravokotniku $[0, 10] \times [0, 10].$ Funkcija nam vrne naslednji seznam točk,
+ki jih tudi narišimo.
+
+\begin{table}[h]
+  \caption*{Generirane točke v ravnini}
+  \adjustimage{width=6cm,valign=c}{example-image}\quad%
+  \begin{tabular}{ |c| c| }
+      \hline
+   $x$ & $y$ \\ 
+   \hline
+   0 & 0 \\
+   \hline  
+   0 & 0\\   
+   \hline
+   0 & 0\\  
+   \hline
+   0 & 0\\
+   \hline
+   0 & 0\\  
+   \hline
+   0 & 0\\
+   \hline
+   0 & 0\\  
+   \hline 
+  \end{tabular}
+\end{table}
+
+\noindent
+S slednjim generiranim seznamom točk poženimo pogram, ki nam vrne naslednji matriki $B$ in $C.$
+\newline
+
+\begin{table}
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+  \end{tabular}
+    \quad
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    \hline
+  \end{tabular}
+\end{table}
+
+\noindent
+V matriki $B$ na mestu $[7,7]$ najdemo dolžino bitonične poti za naš problem potujočega trgovca. 
 
 \end{document}
