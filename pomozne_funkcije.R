@@ -35,10 +35,6 @@ generiraj_tocke = function(spodnja_x, zgornja_x, spodnja_y, zgornja_y, N) {
   return(seznam_tock)
 }
 
-test = generiraj_tocke(0,26,0,5,46)
-test
-
-
 # Še funkcija narisi, ki bo vrnila graf točk
 narisi = function(seznam){
   graf = plot(x = seznam$x,
@@ -51,19 +47,17 @@ narisi = function(seznam){
   return(graf)
 }
 
-test_graf = narisi(test)
-
 # funkcija, ki izračuna razdaljo med dvema točkama
 razdalja = function(tocka1, tocka2){
     razdalja = sqrt((tocka2$x - tocka1$x)^2 + (tocka2$y - tocka1$y)^2)
     return(razdalja)
   }
 
-testna_razdalja = razdalja(test[2,], test[4,])
 
 # funkcija, ki nariše cikel. Kot argument dobi seznam tock, ki je urejen glede na vrstni red vozlišč v ciklu
-narisi_cikel = function(seznam_tock){
+narisi_cikel = function(seznam_tock, seznam_indeksov){
   N = nrow(seznam_tock)
+  seznam_tock = seznam_tock[seznam_indeksov,]
   narisi(seznam_tock)
   indeksi = 1:N
   arrows(seznam_tock$x[indeksi], seznam_tock$y[indeksi], seznam_tock$x[indeksi+1], seznam_tock$y[indeksi+1], length = 0.25, angle = 30, code = 2,
@@ -72,11 +66,5 @@ narisi_cikel = function(seznam_tock){
   arrows(seznam_tock$x[N], seznam_tock$y[N], seznam_tock$x[1], seznam_tock$y[1], length = 0.25, angle = 30, code = 2,
          lty = NULL, xpd = FALSE)
   }
-
-
-poskus = data.frame("x" = c(1,2,3,5,7,8,6,4),
-             "y" = c(1,2,1,2,1,2,3,2))
-narisi(poskus)
-narisi_cikel(poskus)
 
 

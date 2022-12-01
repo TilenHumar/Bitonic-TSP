@@ -26,6 +26,7 @@ najdi_razdaljo = function(seznam_tock){
     }
     
     B[(j-1),j] = B[i,j-1] + razdalja(seznam_tock[i,], seznam_tock[j,])
+    C[(j-1),j] = i
     
     for (k in 2:(j-2)){
       trenutno = B[k,(j-1)] + razdalja(seznam_tock[k,], seznam_tock[j,])
@@ -41,7 +42,7 @@ najdi_razdaljo = function(seznam_tock){
   B[N,N] = B[(N-1),N] + razdalja(seznam_tock[(N-1),], seznam_tock[N,])
   C[N,N] = N-1
   
-  seznam = list("dolzine" = B, "predniki" = C)
+  seznam = list("rezultat" = B[N,N], "dolzine" = B, "predniki" = C)
   return(seznam)
 }
 
@@ -56,20 +57,23 @@ izpisi_cikel = function(C, seznam_tock){
   while (trenutni > 0) {
   vektor_indeksov[i] = trenutni
   i = i+1
-  # Na kaj zdaj nastavim trenutnega?
-   trenutni = C[1,trenutni]
+  trenutni = C[1,trenutni]
   }
-  return(vektor_indeksov)
+  return(rev(vektor_indeksov))
 }
 
-testni_primer = data.frame("x" = c(1,2,3,4),
-                           "y" = c(0,0,0,0))
 
-testni_primer_dolzina_cikla = najdi_razdaljo(testni_primer)$dolzine
-testni_primer_dolzina_cikla
+test = data.frame("x" = c(1,2,3,4),
+                  "y" = c(0,10,0,10)
+                  )
+narisi(test)
 
-testni_primer_tocke_cikla = najdi_razdaljo(testni_primer)$predniki
-testni_primer_tocke_cikla
+test_funkcije = najdi_razdaljo(test)
 
-test_cikel = izpisi_cikel(testni_primer_tocke_cikla,testni_primer)
-test_cikel
+test_funkcije$dolzine
+test_funkcije$predniki
+
+cikel = izpisi_cikel(test_funkcije$predniki, test)
+narisi_cikel(test,cikel)
+
+
