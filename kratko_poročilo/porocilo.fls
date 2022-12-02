@@ -504,14 +504,20 @@ INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex\latex\listing
 INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\fonts\tfm\jknappen\ec\tcrm0800.tfm
-INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex\latex\mwe\example-image.tex
-INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex\latex\mwe\example-image.tex
-INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex\latex\mwe\example-image.tex
-INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex\latex\mwe\example-image.pdf
-INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex\latex\mwe\example-image.pdf
-INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex\latex\mwe\example-image.pdf
-INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex\latex\mwe\example-image.pdf
-INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex\latex\mwe\example-image.pdf
+INPUT .\Slike grafov\eks1.png
+INPUT .\Slike grafov\eks1.png
+INPUT Slike grafov\eks1.png
+INPUT .\Slike grafov\eks1.png
+INPUT .\Slike grafov\eks1.png
+INPUT .\Slike grafov\eks1.png
+INPUT .\Slike grafov\eks1.png
+INPUT .\Slike grafov\eks1_cikel.png
+INPUT .\Slike grafov\eks1_cikel.png
+INPUT Slike grafov\eks1_cikel.png
+INPUT .\Slike grafov\eks1_cikel.png
+INPUT .\Slike grafov\eks1_cikel.png
+INPUT .\Slike grafov\eks1_cikel.png
+INPUT .\Slike grafov\eks1_cikel.png
 INPUT porocilo.aux
 INPUT C:\Users\Uporabnik\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0800.pk
 INPUT C:\Users\Uporabnik\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0800.pk
@@ -551,7 +557,5 @@ INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\fonts\type1\publi
 INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\fonts\type1\public\amsfonts\cm\cmtt12.pfb
 INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\fonts\type1\public\amsfonts\cm\cmtt12.pfb
-INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\fonts\type1\public\lm\lmss17.pfb
-INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\fonts\type1\public\lm\lmss17.pfb
 INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\fonts\type1\public\amsfonts\symbols\msbm10.pfb

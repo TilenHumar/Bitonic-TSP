@@ -260,72 +260,73 @@ Generirajmo 7 točk v zaprtem pravokotniku $[0, 10] \times [0, 10].$ Funkcija na
 ki jih tudi narišimo.
 
 \begin{table}[h]
-  \caption*{Generirane točke v ravnini}
-  \adjustimage{width=6cm,valign=c}{example-image}\quad%
+  \adjustimage{width=8cm,valign=c}{Slike grafov/eks1.png}\quad%
   \begin{tabular}{ |c| c| }
       \hline
    $x$ & $y$ \\ 
    \hline
-   0 & 0 \\
+   0 & 0.5571715 \\
    \hline  
-   0 & 0\\   
+   1 & 5.6845884 \\   
    \hline
-   0 & 0\\  
+   2 & 5.3579881 \\  
    \hline
-   0 & 0\\
+   4 & 7.3471644 \\
    \hline
-   0 & 0\\  
+   5 & 9.0833718 \\  
    \hline
-   0 & 0\\
-   \hline
-   0 & 0\\  
+   10 & 4.3669226 \\  
    \hline 
   \end{tabular}
+  \caption*{Generirane točke v ravnini}
 \end{table}
 
 \noindent
-S slednjim generiranim seznamom točk poženimo pogram, ki nam vrne naslednji matriki $B$ in $C.$
+S slednjim generiranim seznamom točk poženemo pogram, ki nam vrne naslednji matriki $B$ in $C.$
 \newline
 
-\begin{table}
+\begin{table}[h!]
   \begin{tabular}{|c|c|c|c|c|c|c|}
     \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    0 & 5.224022 & 6.276005 & 9.096789 & 11.10039 & 17.97388 \\
     \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    0 & 0 & 10.424776 & 13.245560 & 15.24916 & 22.12265 \\
     \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    0 & 0 & 0 & 13.854668 & 15.85827 & 22.73176 \\
     \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    0 & 0 & 0 & 0 & 18.49453 & 25.36803 \\
     \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    0 & 0 & 0 & 0 & 0 & 21.80152 \\
     \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
-    \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    0 & 0 & 0 & 0 & 0 & 28.67501 \\
     \hline
   \end{tabular}
-    \quad
+  \caption*{Matrika $B$}
+\end{table}
+
+\begin{table}[h]
+  \adjustimage{width=8cm,valign=c}{Slike grafov/eks1_cikel.png}\quad%
   \begin{tabular}{|c|c|c|c|c|c|c|}
     \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    0 & 1 & 2 & 3 & 4 & 5 \\
     \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    0 & 0 & 1 & 3 & 4 & 5 \\
     \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    0 & 0 & 0 & 2 & 4 & 5 \\
     \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    0 & 0 & 0 & 0 & 2 & 5 \\
     \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    0 & 0 & 0 & 0 & 0 & 1 \\
     \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
-    \hline
-    0 & 0 & 0 & 0 & 0 & 0 & 0\\
+    0 & 0 & 0 & 0 & 0 & 1 \\
     \hline
   \end{tabular}
+  \caption*{Cikel najkrajše bitonične rešitve $P_{6,6}$ in matrika $C$}
 \end{table}
 
 \noindent
-V matriki $B$ na mestu $[7,7]$ najdemo dolžino bitonične poti za naš problem potujočega trgovca. 
+V matriki $B$ na mestu $[6,6]$ najdemo dolžino bitonične poti za naš problem potujočega trgovca: 
+$B[6,6] = 28.67501.$
+
 
 \end{document}
