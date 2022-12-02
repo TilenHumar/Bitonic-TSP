@@ -28,23 +28,24 @@ najdi_razdaljo = function(seznam_tock){
     B[(j-1),j] = B[i,j-1] + razdalja(seznam_tock[i,], seznam_tock[j,])
     C[(j-1),j] = i
     
-    for (k in 2:(j-2)){
+    for (k in 1:(j-2)){
       trenutno = B[k,(j-1)] + razdalja(seznam_tock[k,], seznam_tock[j,])
-      if (trenutno < B[i,j]){
-        B[i,j] = trenutno
-        C[i,j] = k
+      if (trenutno < B[j-1,j]){
+        B[j-1,j] = trenutno
+        C[j-1,j] = k
       }
     }
   }
   
-  
   # Povezava med a_n-1 in a_n bo gotovo v ciklu
   B[N,N] = B[(N-1),N] + razdalja(seznam_tock[(N-1),], seznam_tock[N,])
-  C[N,N] = N-1
+  C[N,N] = C[(N-1),N]  
+  
   
   seznam = list("rezultat" = B[N,N], "dolzine" = B, "predniki" = C)
   return(seznam)
 }
+
 
 izpisi_cikel = function(C, seznam_tock){
   N = nrow(seznam_tock)
@@ -52,16 +53,21 @@ izpisi_cikel = function(C, seznam_tock){
   vektor_indeksov[1] = N
   
   i = 2
-  trenutni = C[N,N]
+  trenutni = C[N-1,N]
   
   while (trenutni > 0) {
-  vektor_indeksov[i] = trenutni
-  i = i+1
-  trenutni = C[1,trenutni]
+    if (trenutni == 1){
+      manjkajoci = 1 - (1:N %in% vektor_indeksov)
+      Tr_Fa = as.logical(manjkajoci)
+      vektor_indeksov = vektor_indeksov[!vektor_indeksov == 0]
+      vektor_indeksov = append(vektor_indeksov, (1:N)[Tr_Fa])
+      return(vektor_indeksov)
+    }
+    vektor_indeksov[i] = trenutni
+    i = i+1
+    trenutni = C[trenutni-1,trenutni]
   }
-  return(rev(vektor_indeksov))
 }
-
 
 test = data.frame("x" = c(1,2,3,4),
                   "y" = c(0,10,0,10)
@@ -74,6 +80,23 @@ test_funkcije$dolzine
 test_funkcije$predniki
 
 cikel = izpisi_cikel(test_funkcije$predniki, test)
+cikel
+
 narisi_cikel(test,cikel)
 
+
+
+test1 = generiraj_tocke(1,10,0,10,19)
+narisi(test1)
+
+test_funkcije1 = najdi_razdaljo(test1)
+test_funkcije1$dolzine
+test_funkcije1$predniki
+
+cikel1 = izpisi_cikel(test_funkcije1$predniki, test1)
+cikel1
+
+narisi_cikel(test1,cikel1)
+
+razdalja1 = razdalja(test1[6,], test1[9,]) + razdalja(test1[6,], test1[9,])
 
