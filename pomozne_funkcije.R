@@ -10,10 +10,6 @@
 
 generiraj_tocke = function(spodnja_x, zgornja_x, spodnja_y, zgornja_y, N) {
   
-  # Najprej naredimo prazno tabelo. Prvi stolpec pove x, drugi pa y koordinato točke.
-  seznam_tock = data.frame(matrix(nrow = 0, ncol = 2))
-  colnames(seznam_tock) = c("x", "y")
-  
   # Preverimo, ali želeno število točk presega število razpoložljivih x koordinat
   if (N > (zgornja_x - spodnja_x + 1)){
     # Generiralo se bo največje možno število točk
@@ -21,14 +17,22 @@ generiraj_tocke = function(spodnja_x, zgornja_x, spodnja_y, zgornja_y, N) {
     print("Število želenih točk presega število razpoložljivih koordinat na abscisni osi. Generirano je bilo največje možno število točk.")
     }
   
+  # Najprej naredimo prazno tabelo. Prvi stolpec pove x, drugi pa y koordinato točke.
+  seznam_tock = data.frame(matrix(nrow = N, ncol = 2))
+  colnames(seznam_tock) = c("x", "y")
+  
   # Naredimo vektor razpoložljivih x koordinat
   mozni_x = spodnja_x:zgornja_x
+  izbrani = c()
   
   for (i in 1:N){
     x_koord = sample(mozni_x, 1)
+    while (x_koord %in% izbrani){
+      x_koord = sample(mozni_x, 1)    
+    }
+    izbrani = append(izbrani, x_koord)
     seznam_tock[i,1] = x_koord
     seznam_tock[i,2] = runif(1, min = spodnja_y, max = zgornja_y)
-    mozni_x = mozni_x[!mozni_x == x_koord]
     }
     
   seznam_tock = seznam_tock[order(seznam_tock$x),]

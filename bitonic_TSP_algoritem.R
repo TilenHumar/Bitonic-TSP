@@ -45,7 +45,7 @@ najdi_razdaljo = function(seznam_tock){
   seznam = list("rezultat" = B[N,N], "dolzine" = B, "predniki" = C)
   return(seznam)
 }
-
+ 
 izpisi_cikel = function(C, seznam_tock){
   N = nrow(seznam_tock)
   vektor_indeksov = rep(0,N)
