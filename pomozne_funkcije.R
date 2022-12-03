@@ -8,6 +8,7 @@
 
 # Opomba: predpostavil sem, da bomo iskali pot na točkah z različnimi x koordinatami
 
+
 generiraj_tocke = function(spodnja_x, zgornja_x, spodnja_y, zgornja_y, N) {
   
   # Preverimo, ali želeno število točk presega število razpoložljivih x koordinat
