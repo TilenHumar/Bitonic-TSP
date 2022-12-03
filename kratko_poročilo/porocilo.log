@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12 32-bit) (preloaded format=pdflatex 2022.2.24)  2 DEC 2022 23:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12 32-bit) (preloaded format=pdflatex 2022.2.24)  3 DEC 2022 22:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -404,54 +404,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--217
 (C:\Users\Uporabnik\Igre in ostali programi\Ostalo\MikTex\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 238--245
+Underfull \hbox (badness 10000) in paragraph at lines 239--246
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 246--251
+Underfull \hbox (badness 10000) in paragraph at lines 247--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
+Underfull \hbox (badness 10000) in paragraph at lines 255--258
 
  []
 
 <Slike grafov/eks1.png, id=47, 441.14813pt x 463.7325pt>
 File: Slike grafov/eks1.png Graphic file (type png)
 <use Slike grafov/eks1.png>
-Package pdftex.def Info: Slike grafov/eks1.png  used on input line 263.
+Package pdftex.def Info: Slike grafov/eks1.png  used on input line 264.
 (pdftex.def)             Requested size: 441.14705pt x 463.73135pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--287
+Underfull \hbox (badness 10000) in paragraph at lines 285--288
 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <Slike grafov/eks1_cikel.png, id=48, 441.14813pt x 463.7325pt>
 File: Slike grafov/eks1_cikel.png Graphic file (type png)
 <use Slike grafov/eks1_cikel.png>
-Package pdftex.def Info: Slike grafov/eks1_cikel.png  used on input line 308.
+Package pdftex.def Info: Slike grafov/eks1_cikel.png  used on input line 313.
 (pdftex.def)             Requested size: 441.14705pt x 463.73135pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./Slike grafov/eks1.png>] [6 <./Slike grafov/eks1_cikel.png>] (porocilo.aux) ) 
+[5 <./Slike grafov/eks1.png>]
+<Slike grafov/cas_izvajanja.png, id=53, 441.14813pt x 463.7325pt>
+File: Slike grafov/cas_izvajanja.png Graphic file (type png)
+<use Slike grafov/cas_izvajanja.png>
+Package pdftex.def Info: Slike grafov/cas_izvajanja.png  used on input line 340.
+(pdftex.def)             Requested size: 227.62204pt x 239.27422pt.
+ [6 <./Slike grafov/eks1_cikel.png> <./Slike grafov/cas_izvajanja.png>] (porocilo.aux) ) 
 Here is how much of TeX's memory you used:
- 9132 strings out of 478659
- 145858 string characters out of 2840222
- 649239 words of memory out of 3000000
- 26954 multiletter control sequences out of 15000+600000
+ 9139 strings out of 478659
+ 146100 string characters out of 2840222
+ 649247 words of memory out of 3000000
+ 26960 multiletter control sequences out of 15000+600000
  417611 words of font info for 79 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  69i,12n,79p,411b,1689s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Uporabnik\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on porocilo.pdf (6 pages, 683369 bytes).
+Output written on porocilo.pdf (6 pages, 698245 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
+ 140 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

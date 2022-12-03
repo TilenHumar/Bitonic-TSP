@@ -221,14 +221,15 @@ psevdokodo.
   Ustvari tabeli B[1...n, 1...n] in C[1...n, 1...n]
   B[1,2] = razdalja(seznam_tock[1,], seznam_tock[2,])
   C[1,2] = 1
-  for j = 3 to n
-    for i = 1 to j - 2
+  for (j in 3:n)
+    for (i in 1:(j - 2))
       B[i,j] = B[i,j - 1] + razdalja(seznam_tock[j - 1,], seznam_tock[j,])
       C[i,j] = j - 1
     B[j - 1,j] = B[i,j - 1] + razdalja(seznam_tock[i,], seznam_tock[j,])
-    for k = 2 to j - 2
-      B[i,j] = min(B[i,j], B[k,j - 1] + razdalja(seznam_tock[k,], seznam_tock[j,]))
-      C[i,j] = k
+    C[j - 1,j] = i
+    for (k in 2:(j - 2))
+      B[j-1,j] = min(B[j-1,j],B[k,j-1] + razdalja(seznam_tock[k,],seznam_tock[j,]))
+      C[j-1,j] = k
   B[n,n] = B[n - 1,n] + razdalja(seznam_tock[n - 1,], seznam_tock[n,])
   C[n,n] = n - 1
   return B and C
@@ -260,7 +261,7 @@ Generirajmo 7 točk v zaprtem pravokotniku $[0, 10] \times [0, 10].$ Funkcija na
 ki jih tudi narišimo.
 
 \begin{table}[h]
-  \adjustimage{width=8cm,valign=c}{Slike grafov/eks1.png}\quad%
+  \adjustimage{width=7.5cm,valign=c}{Slike grafov/eks1.png}\quad%
   \begin{tabular}{ |c| c| }
       \hline
    $x$ & $y$ \\ 
@@ -285,7 +286,7 @@ ki jih tudi narišimo.
 S slednjim generiranim seznamom točk poženemo pogram, ki nam vrne naslednji matriki $B$ in $C.$
 \newline
 
-\begin{table}[h!]
+\begin{table}[htb]
   \begin{tabular}{|c|c|c|c|c|c|c|}
     \hline
     0 & 5.224022 & 6.276005 & 9.096789 & 11.10039 & 17.97388 \\
@@ -304,8 +305,12 @@ S slednjim generiranim seznamom točk poženemo pogram, ki nam vrne naslednji ma
   \caption*{Matrika $B$}
 \end{table}
 
+\noindent
+V matriki $B$ na mestu $[6,6]$ najdemo dolžino najkrajše bitonične poti za naš problem potujočega trgovca: 
+$B[6,6] = 28.67501.$
+
 \begin{table}[h]
-  \adjustimage{width=8cm,valign=c}{Slike grafov/eks1_cikel.png}\quad%
+  \adjustimage{width=7.5cm,valign=c}{Slike grafov/eks1_cikel.png}\quad%
   \begin{tabular}{|c|c|c|c|c|c|c|}
     \hline
     0 & 1 & 2 & 3 & 4 & 5 \\
@@ -324,9 +329,18 @@ S slednjim generiranim seznamom točk poženemo pogram, ki nam vrne naslednji ma
   \caption*{Cikel najkrajše bitonične rešitve $P_{6,6}$ in matrika $C$}
 \end{table}
 
-\noindent
-V matriki $B$ na mestu $[6,6]$ najdemo dolžino bitonične poti za naš problem potujočega trgovca: 
-$B[6,6] = 28.67501.$
+
+\subsection[]{Čas izvajanja programa}
+Glavni program za iskanje najkrajše bitonične rešitve potujočega trgovca ima, kot smo enkrat že
+povedali, kvadratično časovno zahtevnost $O(n^2).$ Naslednji graf \ref{slika:cas_izvajanja} prikazuje porabljen čas programa v 
+odvisnosti od števila generiranih točk. Čas generiranja točk ni vštet. Rdeča krivulja pa je kvadratna funkcija,
+ki se točkam najbolje prilega.
+
+\begin{figure}[h]
+  \includegraphics[width=8cm]{Slike grafov/cas_izvajanja.png}
+  \caption{Čas izvajanja programa (v sekundah) v odvisnosti od števila točk}
+  \label{slika:cas_izvajanja}
+\end{figure}
 
 
 \end{document}

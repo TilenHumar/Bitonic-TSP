@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1670018972 "c:/Users/Uporabnik/Documents/FMF/3. letnik/Finanèni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poroèilo/porocilo.tex" "porocilo.pdf" "porocilo" 1670018975
+["pdflatex"] 1670101836 "c:/Users/Uporabnik/Documents/FMF/3. letnik/Finanèni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poroèilo/porocilo.tex" "porocilo.pdf" "porocilo" 1670101842
   "C:/Users/Uporabnik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1669902287 81286 a24972354787ad66f4189952495c30ed ""
   "C:/Users/Uporabnik/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0800.pk" 1669323088 9292 deb5cb977105bf5fe29ae406781283c4 ""
   "C:/Users/Uporabnik/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1645722594 9775665 d3d137589d59f1ef4c8db1109fdf0744 ""
@@ -106,17 +106,18 @@
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/tex/latex/varwidth/varwidth.sty" 1238465940 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/Uporabnik/Igre in ostali programi/Ostalo/MikTex/tex/latex/xkeyval/xkeyval.sty" 1623002090 4902 efb3d66683a2da2a232f71e3a571a899 ""
+  "Slike grafov/cas_izvajanja.png" 1670098301 16187 cb91e0bdeb11d2dd4dacb9d773814247 ""
   "Slike grafov/eks1.png" 1670017358 8450 ce7034953c15e1bd3b5d07099976bdb4 ""
-  "Slike grafov/eks1_cikel.png" 1670017409 13409 47a3763d4297241e67a58486d8fe29f5 ""
+  "Slike grafov/eks1_cikel.png" 1670100966 13367 d047f46793c876f1931b64479fa3ddbb ""
   "Slike grafov/graf1.png" 1667487083 56182 c186b10b5c2b2ffdba42e5223dc28dcb ""
   "Slike grafov/graf2.png" 1667487278 76453 5fc984df400b98c61b4844bd740e97ea ""
   "Slike grafov/graf3.png" 1667487354 109569 9cfe9ebbc83c410b95a5e91fd997652c ""
   "Slike grafov/graf4.png" 1667487409 106841 04a4361af66030522cbcfd5b35aa47a9 ""
   "Slike grafov/graf5.png" 1667487442 87697 b318a82ddfb9f149814839169deb7aa5 ""
   "Slike grafov/graf6.png" 1667487483 86084 d190c71073ab8a75c10b726f36f406d6 ""
-  "c:/Users/Uporabnik/Documents/FMF/3. letnik/Finanèni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poroèilo/porocilo.tex" 1670018971 11351 b510267f824d0c1b9d510fbefc738809 ""
-  "porocilo.aux" 1670018974 2685 663d704076aef98f327fca70067b63cc "pdflatex"
-  "porocilo.tex" 1670018971 11351 b510267f824d0c1b9d510fbefc738809 ""
+  "c:/Users/Uporabnik/Documents/FMF/3. letnik/Finanèni praktikum/OR_projekt/FP_projekt/Bitonic-TSP/kratko_poroèilo/porocilo.tex" 1670101834 12033 4ced24970b745d49050670b6d66054fd ""
+  "porocilo.aux" 1670101841 3024 1b142c021f017fca7449cb2ac888af27 "pdflatex"
+  "porocilo.tex" 1670101834 12033 4ced24970b745d49050670b6d66054fd ""
   (generated)
   "porocilo.aux"
   "porocilo.log"
