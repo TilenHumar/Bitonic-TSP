@@ -64,7 +64,7 @@ izpisi_cikel = function(C, seznam_tock){
     }
     vektor_indeksov[i] = trenutni
     i = i+1
-    trenutni = C[trenutni-1,trenutni]
+      trenutni = C[trenutni-1,trenutni]  
   }
 }
 
@@ -84,11 +84,11 @@ cikel
 narisi_cikel(test,cikel)
 
 
-
-test1 = generiraj_tocke(1,10,0,10,19)
+test1 = generiraj_tocke(1,10,0,10,10)
 narisi(test1)
 
 test_funkcije1 = najdi_razdaljo(test1)
+
 test_funkcije1$dolzine
 test_funkcije1$predniki
 
@@ -96,6 +96,4 @@ cikel1 = izpisi_cikel(test_funkcije1$predniki, test1)
 cikel1
 
 narisi_cikel(test1,cikel1)
-
-razdalja1 = razdalja(test1[6,], test1[9,]) + razdalja(test1[6,], test1[9,])
 
