@@ -48,26 +48,24 @@ najdi_razdaljo = function(seznam_tock){
 
 izpisi_cikel = function(C, seznam_tock){
   N = nrow(seznam_tock)
-  vektor_indeksov = rep(0,N)
-  vektor_indeksov[1] = N
+  cikel = c(N, N-1)
   
-  i = 2
-  trenutni = C[N-1,N]
+  trenutni = C[N-1, N]
   
-  while (trenutni > 0) {
-    if (trenutni == 1){
-      manjkajoci = 1 - (1:N %in% vektor_indeksov)
-      Tr_Fa = as.logical(manjkajoci)
-      vektor_indeksov = vektor_indeksov[!vektor_indeksov == 0]
-      vektor_indeksov = append(vektor_indeksov, (1:N)[Tr_Fa])
-      return(vektor_indeksov)
+  while (trenutni > 1) {
+    cikel = c(trenutni, cikel)
+    if (trenutni < cikel[2] - 1) {
+      cikel = rev(cikel)
     }
-    vektor_indeksov[i] = trenutni
-    i = i+1
-      trenutni = C[trenutni-1,trenutni]  
+    trenutni = C[cikel[length(cikel)], cikel[1]]
   }
+  return(c(setdiff(N:1, cikel), cikel))
 }
 
+
+# Še 2 testa
+
+# preprost
 test = data.frame("x" = c(1,2,3,4),
                   "y" = c(0,10,0,10)
                   )
@@ -79,12 +77,11 @@ test_funkcije$dolzine
 test_funkcije$predniki
 
 cikel = izpisi_cikel(test_funkcije$predniki, test)
-cikel
 
 narisi_cikel(test,cikel)
 
-
-test1 = generiraj_tocke(1,10,0,10,10)
+# zahteven
+test1 = generiraj_tocke(1,80,0,10,60)
 narisi(test1)
 
 test_funkcije1 = najdi_razdaljo(test1)
@@ -93,7 +90,6 @@ test_funkcije1$dolzine
 test_funkcije1$predniki
 
 cikel1 = izpisi_cikel(test_funkcije1$predniki, test1)
-cikel1
 
 narisi_cikel(test1,cikel1)
 

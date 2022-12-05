@@ -1,4 +1,4 @@
-# Pomozna funkcija generiraj_tocke generira tocke (x, y) v ravnini po katerih bomo iskali pot. Tu je x naravno, y pa realno število.
+# Pomozna funkcija generiraj_tocke generira tocke (x, y) v ravnini po katerih bomo iskali pot. Tu je x celo, y pa realno število.
 # spodnja_x ... spodnja meja za x koordinato
 # zgornja_x ... zgornja meja za x koordinato
 # spodnja_y ... spodnja meja za y koordinato
