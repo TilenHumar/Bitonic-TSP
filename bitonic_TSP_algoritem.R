@@ -25,8 +25,8 @@ najdi_razdaljo = function(seznam_tock){
       C[i,j] = j-1
     }
     
-    B[(j-1),j] = B[i,j-1] + razdalja(seznam_tock[i,], seznam_tock[j,])
-    C[(j-1),j] = i
+    B[(j-1),j] = B[1,j-1] + razdalja(seznam_tock[1,], seznam_tock[j,])
+    C[(j-1),j] = 1
     
     for (k in 1:(j-2)){
       trenutno = B[k,(j-1)] + razdalja(seznam_tock[k,], seznam_tock[j,])
