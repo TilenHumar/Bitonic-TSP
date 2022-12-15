@@ -227,7 +227,7 @@ psevdokodo.
       C[i,j] = j - 1
     B[j - 1,j] = B[1,j - 1] + razdalja(seznam_tock[1,], seznam_tock[j,])
     C[j - 1,j] = 1
-    for (k in 2:(j - 2))
+    for (k in 1:(j - 2))
       B[j-1,j] = min(B[j-1,j],B[k,j-1] + razdalja(seznam_tock[k,],seznam_tock[j,]))
       if (B[j-1,j] == B[k,j-1] + razdalja(seznam_tock[k,],seznam_tock[j,]))
         C[j-1,j] = k
