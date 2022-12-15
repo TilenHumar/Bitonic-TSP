@@ -109,7 +109,7 @@ Iskanje najkrajše bitonične poti je standardna naloga v dinamičnem programira
 \noindent
 Imamo poln graf $K_n$ z množico $n$ vozlišč $\{v_1, v_2, \ldots, v_n\},$ urejenih po naraščajoči $x$ koordinati. 
 Cene povezav so enake (evklidski) razdalji med posameznima vozliščema. Naš problem iskanja najkrajše 
-bitonične poti (po definiciji dinamičnega programiranje) razdelimo na manjše probleme.
+bitonične poti (po definiciji dinamičnega programiranja) razdelimo na manjše probleme.
 \newline
 
 \noindent
@@ -229,7 +229,8 @@ psevdokodo.
     C[j - 1,j] = i
     for (k in 2:(j - 2))
       B[j-1,j] = min(B[j-1,j],B[k,j-1] + razdalja(seznam_tock[k,],seznam_tock[j,]))
-      C[j-1,j] = k
+      if (B[j-1,j] == B[k,j-1] + razdalja(seznam_tock[k,],seznam_tock[j,]))
+        C[j-1,j] = k
   B[n,n] = B[n - 1,n] + razdalja(seznam_tock[n - 1,], seznam_tock[n,])
   C[n,n] = n - 1
   return B and C
