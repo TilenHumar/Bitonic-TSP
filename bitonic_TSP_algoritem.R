@@ -81,7 +81,7 @@ cikel = izpisi_cikel(test_funkcije$predniki, test)
 narisi_cikel(test,cikel)
 
 # zahteven
-test1 = generiraj_tocke(1,80,0,10,60)
+test1 = generiraj_tocke(1,5,0,10,5)
 narisi(test1)
 
 test_funkcije1 = najdi_razdaljo(test1)
@@ -90,6 +90,7 @@ test_funkcije1$dolzine
 test_funkcije1$predniki
 
 cikel1 = izpisi_cikel(test_funkcije1$predniki, test1)
+cikel1
 
 narisi_cikel(test1,cikel1)
 
